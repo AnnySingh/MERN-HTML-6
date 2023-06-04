@@ -1,0 +1,163 @@
+fdivdivdivdiv<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS for the form container */
+    .form-container {
+      padding: 20px;
+      max-width: 500px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 15px;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 15px;
+      resize: vertical;
+    }
+
+    .checkbox-label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .submit-button {
+      display: block;
+      padding: 10px;
+      background-color: #f2f2f2;
+      border: 1px solid #000;
+      cursor: pointer;
+    }
+
+    /*CSS for heading*/
+    h2{
+        color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Registration Form</h2>
+    <form>
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="gender">Gender:</label>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+      </div>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="4" required></textarea>
+
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" required>
+
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">Choose your country</option>
+        <option value="ca">Afganisthan</option>
+        <option value="ca">Argentina</option>
+        <option value="ca">Bahrain</option>
+        <option value="ca">Bangladesh</option>
+        <option value="ca">Barbados</option>
+        <option value="ca">Belgium</option>
+        <option value="ca">Bhutan</option>
+        <option value="ca">Bolivia</option>
+        <option value="ca">Brazil</option>
+        <option value="ca">Canada</option>
+        <option value="ca">Chile</option>
+        <option value="ca">China</option>
+        <option value="ca">Columbia</option>
+        <option value="ca">Costa Rica</option>
+        <option value="ca">Croatia</option>
+        <option value="ca">Denmark</option>
+        <option value="ca">Egypt</option>
+        <option value="ca">Etiopia</option>
+        <option value="ca">Fiji</option>
+        <option value="ca">Finland</option>
+        <option value="ca">France</option>
+        <option value="ca">Geaorgia</option>
+        <option value="ca">Germany</option>
+        <option value="ca">Greece</option>
+        <option value="ca">Hong Kong</option>
+        <option value="ca">Hungary</option>
+        <option value="ca">Iceland</option>
+        <option value="ca">INDIA</option>
+        <option value="ca">Indonesia</option>
+        <option value="ca">Iran</option>
+        <option value="ca">Iraq</option>
+        <option value="ca">Ireland</option>
+        <option value="ca">Italy</option>
+        <option value="ca">Japan</option>
+        <option value="ca">Kenya</option>
+        <option value="ca">Korea</option>
+        <option value="ca">Libya</option>
+        <option value="ca">Malaysia</option>
+        <option value="ca">Maldives</option>
+        <option value="ca">Malta</option>
+        <option value="ca">Canada</option>
+        <option value="ca">Mexico</option>
+        <option value="ca">Nepal</option>
+        <option value="ca">Netherlands</option>
+        <option value="ca">Nigeria</option>
+        <option value="ca">Norway</option>
+        <option value="ca">Peru</option>
+        <option value="ca">Philippines</option>
+        <option value="ca">Poland</option>
+        <option value="ca">Quatar</option>
+        <option value="ca">Russia</option>
+        <option value="ca">USA</option>
+        <option value="ca">UK</option>
+        <!-- Add more options as needed -->
+      </select>
+
+      <label for="language">Language known:</label>
+      <div>
+        <input type="checkbox" id="english" name="language" value="english">
+        <label for="english">English</label>
+        <input type="checkbox" id="kannada" name="language" value="kannada">
+        <label for="kannada">Kannada</label>
+        <input type="checkbox" id="hindi" name="language" value="hindi">
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" id="telugu" name="language" value="telugu">
+        <label for="telugu">Telugu</label>
+
+        <tr>
+            <td colspan="2">
+              <input type="checkbox" id="declaration" name="declaration" required>
+              <label for="declaration">Hereby I declare all the given details are true</label>
+            </td>
+          </tr>
+          
+      <input type="submit" value=""Register" class="'submit-button">
+      </form>
+    </div>
+</body>
+</html>
+
